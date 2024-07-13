@@ -1,0 +1,19 @@
+Python memory management is an important aspect of the language that ensures efficient utilization of system resources. Python uses a technique called reference counting to manage memory.
+
+In Python, every object has a reference count associated with it, which keeps track of the number of references to that object. When an object's reference count reaches zero, it means that there are no more references to that object, and it can be safely deallocated from memory.
+
+Python also employs a garbage collector to handle cyclic references, where objects reference each other in a circular manner. The garbage collector periodically checks for and removes these cyclic references, freeing up memory that would otherwise be wasted.
+
+Additionally, Python provides a mechanism called "automatic memory management" through the use of the gc module. This module allows you to control the garbage collector's behavior, such as enabling or disabling it, setting thresholds, and manually triggering garbage collection.
+
+Overall, Python's memory management system takes care of most memory-related tasks automatically, allowing developers to focus on writing code without worrying too much about memory allocation and deallocation. However, it's still important to be mindful of memory usage and avoid unnecessary object creation to ensure optimal performance.Sure! Here's some text about Python memory management:
+
+Python memory management is an important aspect of the language that ensures efficient utilization of system resources. Python uses a technique called reference counting to manage memory.
+
+In Python, every object has a reference count associated with it, which keeps track of the number of references to that object. When an object's reference count reaches zero, it means that there are no more references to that object, and it can be safely deallocated from memory.
+
+Python also employs a garbage collector to handle cyclic references, where objects reference each other in a circular manner. The garbage collector periodically checks for and removes these cyclic references, freeing up memory that would otherwise be wasted.
+
+Additionally, Python provides a mechanism called "automatic memory management" through the use of the gc module. This module allows you to control the garbage collector's behavior, such as enabling or disabling it, setting thresholds, and manually triggering garbage collection.
+
+Overall, Python's memory management system takes care of most memory-related tasks automatically, allowing developers to focus on writing code without worrying too much about memory allocation and deallocation. However, it's still important to be mindful of memory usage and avoid unnecessary object creation to ensure optimal performance.
